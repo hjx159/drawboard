@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -124,6 +124,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <Text Include="..\..\README.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CClearScreen.cpp" />
+    <ClCompile Include="CColor.cpp" />
+    <ClCompile Include="CMenu.cpp" />
+    <ClCompile Include="CPoint.cpp" />
+    <ClCompile Include="CCircle.cpp" />
+    <ClCompile Include="CPoly.cpp" />
+    <ClCompile Include="CRect.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CUi.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CClearScreen.h" />
+    <ClInclude Include="CColor.h" />
+    <ClInclude Include="CMenu.h" />
+    <ClInclude Include="CPoint.h" />
+    <ClInclude Include="CCircle.h" />
+    <ClInclude Include="CPoly.h" />
+    <ClInclude Include="CRect.h" />
+    <ClInclude Include="CShape.h" />
+    <ClInclude Include="CUi.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
